@@ -4,164 +4,348 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elina Nie | Product & Business Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Playfair+Display:ital,wght@0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#hero" class="logo">Elina Nie</a>
+            <a href="#hero" class="logo">Elina Nie ✦</a>
             <div class="nav-links">
+                <a href="#hero">Hello</a>
                 <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
+                <a href="#work">Work</a>
+                <a href="#life">Life</a>
             </div>
+            <a href="#contact" class="btn btn-nav">Say Hello</a>
         </div>
     </nav>
 
+    <!-- Hero -->
     <section id="hero" class="hero section">
         <div class="container hero-container fade-in">
-            <div class="hero-image">
-                <img src="profile.png" alt="Elina Nie - Profile" class="profile-pic">
-            </div>
             <div class="hero-content">
-                <p class="subtitle">Product & Business Analyst</p>
-                <h1 class="title">Elina Nie</h1>
-                <p class="focus">Search · Growth · Monetization</p>
-                <p class="tagline">I build data-driven product strategies connecting user intent, platform growth, and business impact.</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
-                    <a href="#contact" class="btn btn-text">Contact Me &rarr;</a>
+                <p class="hero-label">→ HI, I'M ELINA</p>
+                <h1 class="hero-title">
+                    Product Manager.<br>
+                    <em>Business Analyst.</em>
+                </h1>
+                <p class="hero-italic">→ finding signal in the noise</p>
+                <p class="tagline">I'm a CMU grad student at the intersection of product, data, and business impact — building strategies that connect user behavior to real revenue growth.</p>
+                <div class="tag-row">
+                    <span class="tag">Search & Growth</span>
+                    <span class="tag">Monetization</span>
+                    <span class="tag">A/B Testing</span>
+                    <span class="tag">SQL · Python</span>
+                    <span class="tag">CMU ETIM ✦</span>
                 </div>
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary">See my work →</a>
+                    <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.png" alt="Elina Nie" class="profile-pic">
             </div>
         </div>
     </section>
 
+    <!-- About / Life -->
     <section id="about" class="about section bg-light">
         <div class="container fade-in">
-            <h2 class="section-title">About Me</h2>
-            <p class="about-text">
-                Hi, I'm Elina👋 I am a Carnegie Mellon graduate student at the intersection of product, analytics, and business impact. With experience across Tencent, Xiaohongshu, and e-commerce platforms, my work focuses on search systems, commercialization, and growth strategy. I specialize in translating complex behavioral data into actionable product decisions that drive measurable revenue and user engagement.
-            </p>
-        </div>
-    </section>
+            <p class="section-label">→ A BIT ABOUT ME</p>
+            <h2 class="section-title-serif">Hello, I'm Elina 👋</h2>
+            <div class="about-grid">
 
-    <section class="metrics section">
-        <div class="container fade-in">
-            <div class="metrics-grid">
-                <div class="metric-card">
-                    <h3>30%</h3>
-                    <p>GMV Growth</p>
+                <div class="about-card">
+                    <p class="card-label">↪ my story</p>
+                    <p class="about-text">I'm a Carnegie Mellon grad student passionate about the intersection of product thinking, behavioral data, and business impact. With experience at Tencent, Xiaohongshu, and Publicis, I specialize in translating complex user data into strategies that actually move the needle.</p>
+                    <p class="about-text">My background in Philosophy & Logic gives me a unique lens — I'm wired to find structure in chaos and turn ambiguity into clear product decisions.</p>
+                    <div class="tag-row" style="margin-top: 20px;">
+                        <span class="tag">Philosophy Major ✦</span>
+                        <span class="tag">Logic → Data</span>
+                        <span class="tag">Afro Dancer</span>
+                        <span class="tag">Film Photographer</span>
+                    </div>
                 </div>
-                <div class="metric-card">
-                    <h3>8–9%</h3>
-                    <p>CVR Increase</p>
+
+                <div class="about-card">
+                    <p class="card-label">→ Currently into</p>
+                    <ul class="about-list">
+                        <li>🕺 Afro dance — Azonto & Amapiano</li>
+                        <li>📷 Photography, especially film photography</li>
+                        <li>🎬 Movies — sci-fi & romance are my favorites</li>
+                    </ul>
+                    <p class="card-label" style="margin-top: 20px;">→ Work interests</p>
+                    <ul class="about-list">
+                        <li>✦ Monetization strategy</li>
+                        <li>✦ Search & Recommendation Systems</li>
+                        <li>✦ Go-to-Market Strategy</li>
+                    </ul>
                 </div>
-                <div class="metric-card">
-                    <h3>5.7%</h3>
-                    <p>Revenue Lift</p>
+
+                <div class="about-card">
+                    <p class="card-label">↓ Education</p>
+                    <div class="edu-item">
+                        <span class="edu-num">1</span>
+                        <div>
+                            <strong>Carnegie Mellon University</strong>
+                            <p>M.S. Engineering & Technology Innovation Management</p>
+                            <p class="edu-date">Jan 2026 – Dec 2026</p>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <span class="edu-num">2</span>
+                        <div>
+                            <strong>Sun Yat-Sen University</strong>
+                            <p>B.Phil. Logic, Minor in Finance</p>
+                            <p class="edu-date">Sep 2020 – Jun 2024</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="metric-card">
-                    <h3>200K+</h3>
-                    <p>Data Points Analyzed</p>
-                </div>
+
             </div>
         </div>
     </section>
 
-    <section id="projects" class="projects section bg-light">
+    <!-- Contact -->
+    <section id="contact" class="contact section">
         <div class="container fade-in">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2 class="section-title-serif contact-heading">Say Hello ✦</h2>
+            <p class="section-italic" style="margin-bottom: 48px;">I love connecting with people — let's chat!</p>
+            <div class="contact-grid">
+
+                <div class="contact-card contact-card--large">
+                    <h3>Open to something <em>meaningful</em>?</h3>
+                    <p>Whether it's product analytics, growth strategy, or just an interesting conversation — I'd love to hear from you.</p>
+                    <p class="card-label" style="margin-top: 24px;">↓ drop me a line</p>
+                    <div class="contact-links-list">
+                        <a href="mailto:sitingn@andrew.cmu.edu" class="contact-link-item">
+                            <span class="contact-icon">✉</span>
+                            <div>
+                                <small>Email</small>
+                                <span>sitingn@andrew.cmu.edu</span>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/siting-nie-odyssey" target="_blank" class="contact-link-item">
+                            <span class="contact-icon">in</span>
+                            <div>
+                                <small>LinkedIn</small>
+                                <span>siting-nie-odyssey</span>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="resume.pdf" class="btn btn-primary" download style="margin-top: 28px; display: inline-block;">Download Resume →</a>
+                </div>
+
+                <div class="contact-side">
+                    <div class="contact-card">
+                        <p class="card-label">→ Open to</p>
+                        <ul class="about-list">
+                            <li>✦ Product Analyst / Business Analyst roles</li>
+                            <li>✦ Growth & Monetization strategy</li>
+                            <li>✦ Data analytics internships</li>
+                            <li>✦ Big Tech summer 2026 internships</li>
+                            <li>✦ Interesting collaborations</li>
+                        </ul>
+                    </div>
+                    <div class="contact-card open-card">
+                        <p class="open-status"><span class="open-dot">●</span> Open to opportunities</p>
+                        <p>Actively seeking Big Tech internship opportunities in Product and Business Analytics. Currently based in Pittsburgh, PA.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Work & Projects -->
+    <section id="work" class="work section bg-light">
+        <div class="container fade-in">
+            <p class="section-label">→ WHAT I'VE BUILT</p>
+            <h2 class="section-title-serif">Work & Projects</h2>
+            <p class="section-italic">product · data · strategy — I go where the problem needs me</p>
+
             <div class="projects-grid">
-                
+
+                <!-- Afrodance Toolkit -->
                 <div class="project-card">
-                    <div class="project-header">
-                        <h3>Search Ranking Optimization</h3>
-                        <span class="company">Cider</span>
+                    <div class="project-pills-row">
+                        <span class="pill">Vibe Coded</span>
+                        <span class="pill pill-active">Just for fun ✦</span>
                     </div>
-                    <ul class="project-details">
-                        <li>Designed ranking strategy using behavioral data</li>
-                        <li>Conducted rigorous A/B testing</li>
-                        <li><strong>Impact:</strong> Improved GMV per user and CVR by 8–9%</li>
-                    </ul>
+                    <h3>Afrodance Practice Toolkit</h3>
+                    <p class="project-role">Personal Project · 2026</p>
+                    <p class="project-desc">A web toolkit built for Afrodance practitioners — because the right practice system makes all the difference. More details coming soon!</p>
+                    <div class="project-pills-row" style="margin-top: auto; padding-top: 20px;">
+                        <span class="pill">Vibe Coding</span>
+                        <span class="pill">Afrodance</span>
+                        <span class="pill">Web App</span>
+                    </div>
                 </div>
 
+                <!-- Xiaohongshu -->
                 <div class="project-card">
                     <div class="project-header">
+                        <div class="company-header">
+                            <img src="logo-rednote.png" alt="Xiaohongshu" class="company-logo">
+                            <span class="company-tag">Xiaohongshu (RedNote)</span>
+                        </div>
                         <h3>Ads Growth Strategy</h3>
-                        <span class="company">Xiaohongshu</span>
                     </div>
+                    <p class="project-role">Business Analyst Intern · Jun–Nov 2025 · Shanghai</p>
                     <ul class="project-details">
-                        <li>Audience segmentation & performance analytics</li>
-                        <li>Built automated dashboards for tracking</li>
-                        <li><strong>Impact:</strong> Delivered 30%+ GMV growth</li>
+                        <li>Multi-channel growth strategies for beauty clients (KIKO, EviDenS); audience segmentation & category trend analysis</li>
+                        <li>Automated dashboards monitoring ad spend across search & feeds channels</li>
+                        <li><strong>30.3% YTD GMV growth</strong> for EviDenS · 5.7% bi-monthly revenue lift</li>
                     </ul>
                 </div>
 
+                <!-- Publicis -->
                 <div class="project-card">
                     <div class="project-header">
-                        <h3>Monetization Strategy</h3>
-                        <span class="company">Tencent</span>
+                        <div class="company-header">
+                            <img src="logo-publicis.png" alt="Publicis" class="company-logo">
+                            <span class="company-tag">Publicis Groupe</span>
+                        </div>
+                        <h3>Campaign & Media Analytics</h3>
                     </div>
+                    <p class="project-role">Media Plan Intern · Dec 2024–Apr 2025 · Guangzhou</p>
                     <ul class="project-details">
-                        <li>Designed IAA monetization model</li>
-                        <li>Supported comprehensive PRD collaboration</li>
-                        <li><strong>Impact:</strong> Reduced complaint volume by 10%</li>
+                        <li>Collected 200K+ omni-channel data points; decoded competitor media mixes to drive a 15% budget pivot</li>
+                        <li>Coordinated RedNote product launch with optimized audience targeting</li>
+                        <li><strong>8% CTR</strong> · <strong>38% audience penetration</strong> in target demographics</li>
                     </ul>
+                </div>
+
+                <!-- Tencent -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="company-header">
+                            <img src="logo-wechat.png" alt="Tencent WeChat" class="company-logo">
+                            <span class="company-tag">Tencent (WeChat Business Group)</span>
+                        </div>
+                        <h3>Monetization Strategy</h3>
+                    </div>
+                    <p class="project-role">Business Analysis Intern · Oct 2023–Apr 2024 · Guangzhou</p>
+                    <ul class="project-details">
+                        <li>SWOT/PEST analysis of vertical drama apps; designed IAA monetization model & PRD collaboration</li>
+                        <li>HiveSQL analysis of user complaint data; tiered penalty strategy</li>
+                        <li><strong>10% MoM reduction</strong> in complaint volume · 100% roadmap alignment</li>
+                    </ul>
+                </div>
+
+                <!-- AI Pet Wearable — full width at bottom -->
+                <div class="project-card featured">
+                    <div class="project-pills-row">
+                        <span class="pill">Side Project</span>
+                    </div>
+                    <h3>AI-Powered Pet Wearable Startup</h3>
+                    <p class="project-role">Marketing Analytics & GTM · Dec 2025 – Jan 2026</p>
+                    <p class="project-desc">Architecting a community-led strategy across Reddit and Discord to gather user feedback; leveraging AIGC to iterate 30+ visual concepts for A/B testing; identified "Visual Aesthetics" and "Real-time Pet Tracking" as top value propositions — building a pre-launch waitlist for a May 2026 Kickstarter.</p>
+                    <div class="project-pills-row" style="margin-top: 20px;">
+                        <span class="pill">AIGC (Lovar)</span>
+                        <span class="pill">User Research</span>
+                        <span class="pill">GTM Strategy</span>
+                        <span class="pill">Influencer Analytics</span>
+                    </div>
                 </div>
 
             </div>
         </div>
     </section>
 
+    <!-- Skills -->
     <section id="skills" class="skills section">
         <div class="container fade-in">
-            <h2 class="section-title">Core Competencies</h2>
+            <p class="section-label">→ WHAT I WORK WITH</p>
+            <h2 class="section-title-serif">Core Skills</h2>
             <div class="skills-grid">
                 <div class="skill-column">
-                    <h4>Product</h4>
+                    <h4>↓ Product & Strategy</h4>
                     <ul>
-                        <li>Search & Recommendation</li>
-                        <li>Monetization Strategy</li>
-                        <li>A/B Testing</li>
+                        <li>Search & Recommendation Systems</li>
+                        <li>Monetization Strategy (IAA/IAP)</li>
+                        <li>A/B Testing & Experimentation</li>
+                        <li>PRD Writing & Roadmapping</li>
+                        <li>Growth & GTM Strategy</li>
+                        <li>SWOT / PEST Analysis</li>
                     </ul>
                 </div>
                 <div class="skill-column">
-                    <h4>Data</h4>
+                    <h4>↓ Data & Analytics</h4>
                     <ul>
-                        <li>SQL</li>
-                        <li>Python</li>
-                        <li>Tableau</li>
-                        <li>Analytics</li>
+                        <li>SQL (HiveSQL / MySQL)</li>
+                        <li>Python · R · MATLAB · Java</li>
+                        <li>Tableau · Excel (Pivot Tables)</li>
+                        <li>Data Visualization</li>
+                        <li>Google Analytics</li>
+                        <li>Competitive & Social Listening</li>
                     </ul>
                 </div>
                 <div class="skill-column">
-                    <h4>Business</h4>
+                    <h4>↓ Marketing & AI Tools</h4>
                     <ul>
-                        <li>Growth Strategy</li>
-                        <li>Ads Optimization</li>
-                        <li>E-commerce Analytics</li>
+                        <li>AIGC — Lovar · Lexi AI</li>
+                        <li>Influencer Analytics (Aha AI)</li>
+                        <li>Audience Segmentation</li>
+                        <li>Campaign Performance Analysis</li>
+                        <li>Social Commerce Platforms</li>
+                        <li>Community-led Growth</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact section bg-dark">
-        <div class="container fade-in text-center">
-            <h2 class="section-title light-text">Let's Connect</h2>
-            <p class="contact-text">Currently seeking Big Tech internship opportunities in Product and Business Analytics.</p>
-            <div class="contact-links">
-                <a href="mailto:your.email@example.com" class="btn btn-primary">Email Me</a>
-                <a href="https://www.linkedin.com/in/siting-nie-odyssey" target="_blank" class="btn btn-outline light-outline">LinkedIn</a>
-                <a href="#" class="btn btn-text light-text">Download Resume</a>
+    <!-- Life -->
+    <section id="life" class="life section bg-light">
+        <div class="container fade-in">
+            <p class="section-label">→ BEYOND THE SPREADSHEETS</p>
+            <h2 class="section-title-serif">My Life ✦</h2>
+            <p class="section-italic">dance · film · cinema · adventures</p>
+
+            <div class="life-video-block">
+                <p class="card-label">↓ catch me on the dance floor</p>
+                <div class="video-grid">
+                    <div class="video-slot">
+                        <video controls>
+                            <source src="videos/dance1.MP4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-slot">
+                        <video controls>
+                            <source src="videos/dance2.MP4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
             </div>
+
+            <div class="life-photos-block">
+                <p class="card-label">↓ life through my lens</p>
+                <div class="photo-grid">
+                    <div class="photo-slot photo-slot--tall">
+                        <img src="images/life1.JPG" alt="life photo">
+                    </div>
+                    <div class="photo-slot">
+                        <img src="images/life2.JPG" alt="life photo">
+                    </div>
+                    <div class="photo-slot">
+                        <img src="images/life3.JPG" alt="life photo">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <footer class="footer">
-        <p>&copy; 2026 Elina Nie. Designed with intent.</p>
+        <p>© 2026 Elina Nie ✦ Designed with intent & a little pink.</p>
     </footer>
 
     <script src="script.js"></script>
